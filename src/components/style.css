@@ -1,0 +1,42 @@
+main {
+  padding: 36px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  color: white;
+  background: black;
+  padding: 20px;
+}
+
+.header-title {
+  font-size: 22px;
+  margin-right: auto;
+}
+
+.header-img {
+  height: 100%;
+  margin-right: 8px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 20px;
+}
+
+.input {
+  border-radius: 5px;
+  border: 1px solid;
+  text-indent: 7px;
+}
+
+.button {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  color: white;
+  background: black;
+  cursor: pointer;
+}
